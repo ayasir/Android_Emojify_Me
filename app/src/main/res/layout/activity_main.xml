@@ -54,7 +54,7 @@
         android:text="@string/go"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/clear_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,12 +62,12 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:onClick="clearImage"
-        android:src="@drawable/ic_clear"
+        app:srcCompat="@drawable/ic_clear"
         android:visibility="gone"
         app:backgroundTint="@android:color/white"
         app:fabSize="mini" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -78,11 +78,11 @@
         android:layout_marginEnd="@dimen/fab_margins"
         android:layout_marginRight="@dimen/fab_margins"
         android:onClick="saveMe"
-        android:src="@drawable/ic_save"
+        app:srcCompat="@drawable/ic_save"
         android:visibility="gone"
         app:backgroundTint="@android:color/white" />
 
-    <android.support.design.widget.FloatingActionButton
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/share_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,7 +93,7 @@
         android:layout_marginLeft="@dimen/fab_margins"
         android:layout_marginStart="@dimen/fab_margins"
         android:onClick="shareMe"
-        android:src="@drawable/ic_share"
+        app:srcCompat="@drawable/ic_share"
         android:visibility="gone"
         app:backgroundTint="@android:color/white" />
 
